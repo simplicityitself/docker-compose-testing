@@ -7,4 +7,4 @@ services:
     links:
       - rabbit
     volumes:
-      - test-results:/usr/src/app/test-results
+      - ./test-results:/usr/src/app/test-results
