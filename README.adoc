@@ -1,0 +1,18 @@
+# Example starter project for docker compose based orchestrated testing
+
+Download
+
+Run up the persistent/ orchestrated services
+
+```
+docker-compose up -d rabbit
+```
+
+
+Then, run the test
+
+```
+docker-compose run test
+```
+
+The test results, in xunit xml format, will now be in test-results
