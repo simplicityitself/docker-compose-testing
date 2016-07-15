@@ -1,0 +1,24 @@
+ 
+{
+  "name": "do-test",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "XUNIT_FILE=test-results/xunit.xml ./node_modules/.bin/mocha --recursive -R xunit-file test/"
+  },
+  "engines": {
+    "node": "4.x",
+    "npm": "3.x"
+  },
+  "dependencies": {
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "superagent": "*",
+    "assert": "*",
+    "validator": "*",
+    "xunit-file": "*",
+    "should": "*",
+    "mocha-sinon": "*"
+  }
+}
