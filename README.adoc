@@ -16,3 +16,11 @@ docker-compose run test
 ```
 
 The test results, in xunit xml format, will now be in test-results
+
+## Extending
+
+You need to add in your persistent services to the docker-compse file, either as images, or more likely as inline builds
+
+Then, update the test to in some way exercise the service.
+
+Finally, rebuild everything and run the test using `docker-compose run test`
